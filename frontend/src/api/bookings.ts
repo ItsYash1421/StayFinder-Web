@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "https://stayfinder-backend-5wmn.onrender.com"; // adjust as needed
+const API_URL = (import.meta.env.VITE_API_URL || '/api') + '/bookings';// adjust as needed
 
 export const bookListing = async (listingId: string, date: string, token: string) => {
   const { data } = await axios.post(
