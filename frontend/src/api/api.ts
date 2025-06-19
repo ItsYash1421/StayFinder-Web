@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { AuthResponse, Booking, Listing, SearchFilters, User } from '../types';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://stayfinder-backend-5wmn.onrender.com';
 
 interface Notification {
   _id: string;
