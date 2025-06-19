@@ -43,6 +43,7 @@ export interface Listing {
     city: string;
     state: string;
     country: string;
+    coordinates?: [number, number];
   };
   price: number;
   pricePerNight: number;
