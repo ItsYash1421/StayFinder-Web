@@ -1,7 +1,7 @@
 import axios from "axios";
 import { User } from '../types';
 
-const API_URL = "http://localhost:8000/api/auth"; // adjust as needed
+const API_URL = "https://stayfinder-backend-5wmn.onrender.com"; // adjust as needed
 
 interface AuthResponse {
   token: string;
